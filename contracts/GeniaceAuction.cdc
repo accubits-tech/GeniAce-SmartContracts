@@ -264,7 +264,7 @@ pub contract GeniaceAuction {
                     self.currentPrice == 0.0 || 
                     (
                         self.reservePrice > 0.0 && 
-                        self.currentPrice >= self.reservePrice
+                        self.currentPrice < self.reservePrice
                     )
                 ) {
                 self.returnAuctionItemToOwner()
