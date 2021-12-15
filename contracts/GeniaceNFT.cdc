@@ -8,7 +8,7 @@
 // which can be used by admins to mint new NFTs.
 //
 
-import NonFungibleToken from "./NonFungibleToken.cdc";
+import NonFungibleToken from 0x1d7e57aa55817448;
 
 pub contract GeniaceNFT: NonFungibleToken {
 

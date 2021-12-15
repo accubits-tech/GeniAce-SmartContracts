@@ -1,9 +1,9 @@
 // This contract allows users to put their NFTs up for sale. Other users
 // can purchase these NFTs with fungible tokens.
 
-import FungibleToken from "./FungibleToken.cdc"
-import NonFungibleToken from "./NonFungibleToken.cdc"
-import FlowToken from "./FlowToken.cdc"
+import FungibleToken from 0xf233dcee88fe0abe
+import NonFungibleToken from 0x1d7e57aa55817448
+import FlowToken from 0x1654653399040a61
 import Geni from "./Geni.cdc"
 import GeniaceNFT from "./GeniaceNFT.cdc"
 
